@@ -1,0 +1,105 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 15px;
+    height: 1.5px;
+    padding: 0;
+    margin: 0;
+    background: url("images/piggyvestbkg.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+    margin-bottom: -200px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px
+}
+
+.form {
+    border: solid white 1px;
+    border-radius: 12px 12px 12px 0;
+    background-color: white;
+    padding: 0 30px 35px 30px;
+    margin-top: 20rem;
+}
+
+.top-form {
+    text-align: center;
+}
+
+.top-form h3 {
+    font: rgb(38, 38, 223);
+    margin-bottom: 0;
+    color: #062863;
+    font-size: 22px;
+}
+
+.top-form p {
+    margin: 0 0 25px 0;
+}
+
+label, .top-form p {
+    font-size: 13px;
+    color: rgb(58, 58, 58);
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px rgb(200, 210, 214) solid;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: rgb(200, 210, 214);
+    color: grey;
+}
+
+.box {
+    padding: 15px 105px 15px 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid #062863;
+    background-color: #062863;
+    color: white;
+    border-radius: 10px 10px 10px 0;
+    text-align: center;
+    padding: 15px 110px 15px 95px;
+    margin-top: 20px;
+}
+
+.last-text {
+    color: white;
+}
+
+@media(max-width: 760px) {
+    body, .container,
+    .logo, .form,
+    button {
+        width: 90%;
+        text-align: center;
+    }
+
+    body img {
+        background-size: contain;
+    }
+
+
+}
