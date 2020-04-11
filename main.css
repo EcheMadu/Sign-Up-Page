@@ -66,11 +66,11 @@ input, select {
     border: 1px rgb(200, 210, 214) solid;
     border-radius: 3px;
     box-sizing: border-box;
-    background-color: rgb(200, 210, 214);
+    background-color: rgb(211, 215, 216);
     color: grey;
 }
 
-#hear-about-us {
+option {
     background-color: rgb(238, 238, 238);
 }
 
