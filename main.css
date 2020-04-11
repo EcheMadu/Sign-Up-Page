@@ -93,12 +93,13 @@ button {
     color: white;
 }
 
-@media(max-width: 760px) {
+@media(max-device-width: 480px) {
     body, .container,
     .logo, .form,
     button {
         width: 90%;
         text-align: center;
+        margin: 0;
     }
 
     body img {
