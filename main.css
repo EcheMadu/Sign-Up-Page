@@ -70,6 +70,10 @@ input, select {
     color: grey;
 }
 
+select::after {
+    background-color: rgb(238, 238, 238);
+}
+
 .box {
     padding: 15px 105px 15px 20px;
     margin-bottom: 20px;
